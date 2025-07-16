@@ -12,8 +12,3 @@ provider "azurerm" {
    }
  }
 
-
-resource "azurerm_resource_group" "rs1" {
-   name = "githubactionsrsghere1"
-   location = "East US"
- }
